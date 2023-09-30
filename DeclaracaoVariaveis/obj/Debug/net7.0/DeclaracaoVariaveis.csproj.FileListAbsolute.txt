@@ -1,0 +1,14 @@
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\bin\Debug\net7.0\DeclaracaoVariaveis.exe
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\bin\Debug\net7.0\DeclaracaoVariaveis.deps.json
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\bin\Debug\net7.0\DeclaracaoVariaveis.runtimeconfig.json
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\bin\Debug\net7.0\DeclaracaoVariaveis.dll
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\bin\Debug\net7.0\DeclaracaoVariaveis.pdb
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.AssemblyInfoInputs.cache
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.AssemblyInfo.cs
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.csproj.CoreCompileInputs.cache
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.dll
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\refint\DeclaracaoVariaveis.dll
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.pdb
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\DeclaracaoVariaveis.genruntimeconfig.cache
+D:\CSharp\RepositorioEstudos\DeclaracaoVariaveis\obj\Debug\net7.0\ref\DeclaracaoVariaveis.dll
