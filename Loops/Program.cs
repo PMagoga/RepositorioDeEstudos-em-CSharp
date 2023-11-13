@@ -14,14 +14,14 @@
 // Console.Write()
 
 //Usando loop do-while
-// int i1 = 1, soma1 = 0;
+// int i = 1, soma = 0;
 // Console.Write("Os 10 primeiros números naturais são :\n");
 // do
 // {
-//     soma1 = soma1 + i1;
-//     Console.Write($"{i1} "); i1++;
-// } while (i1 <= 10);
-// Console.Write($"\nA soma dos números é : {soma1}\n");
+//     soma = soma + i1;
+//     Console.Write($"{i} "); i++;
+// } while (i <= 10);
+// Console.Write($"\nA soma dos números é : {soma}\n");
 
 
 //Usando o loop for
