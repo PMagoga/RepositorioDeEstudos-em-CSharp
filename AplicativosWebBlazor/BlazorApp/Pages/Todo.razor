@@ -1,0 +1,34 @@
+﻿@page "/todo"
+
+<h3>Tarefas Pendentes (@todos.Count(todo => !todo.IsDone))</h3>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+<!-- Modifique o elemento <input> para associar newTodo ao atributo @bind -->
+<input placeholder="Something todo" @bind="newTodo" /> 
+<button @onclick="AddTodo">Add todo</button>
+
+<!-- Adicione um método AddTodo ao componente Todo e registre o método para o botão usando o atributo @onclick. -->
+<!-- O método C# AddTodo é chamado quando o botão é selecionado -->
+@code {
+    private List<TodoItem> todos = new();
+    private string? newTodo;
+    
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            //Atualize o método AddTodo para adicionar o TodoItem com o título especificado à lista
+            todos.Add(new TodoItem { Title = newTodo});
+            newTodo = string.Empty; //Limpe o valor da entrada de texto configurando newTodo para uma cadeia de caracteres vazia
+        }
+    }
+}
