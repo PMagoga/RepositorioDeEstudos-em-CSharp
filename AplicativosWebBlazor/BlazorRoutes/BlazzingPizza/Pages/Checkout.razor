@@ -8,11 +8,15 @@
         <img src="img/logo.svg" />
     </a>
 
-    <a href="" class="nav-tab">
+    <NavLink href="" class="nav-tab" Match="NavLinkMatch.All">
         <img src="img/pizza-slice.svg" />
         <div>Get Pizza</div>
-    </a>
+    </NavLink>
 
+    <NavLink href="myorders" class="nav-tab">
+        <img src="img/bike.svg" />
+        <div>My Orders</div>
+    </NavLink>
 </div>
 
 <div class="main">
@@ -39,11 +43,21 @@
         </div>
     </div>
 
-    <button class="checkout-button btn btn-warning">
+    <button class="checkout-button btn btn-warning" @onclick="PlaceOrder" disabled=@isSubmitting>
         Place order
     </button>
 </div>
 
 @code {
     Order Order => OrderState.Order;
+    bool isSubmitting;
+
+    async Task PlaceOrder()
+    {
+        isSubmitting = true;
+        var response = await HttpClient.PostAsJsonAsync($"{NavigationManager.BaseUri}orders", OrderState.Order);
+        var newOrderId = await response.Content.ReadFromJsonAsync<int>();
+        OrderState.ResetOrder();
+        NavigationManager.NavigateTo("/myorders");
+    }
 }
