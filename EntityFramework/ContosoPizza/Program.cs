@@ -1,5 +1,6 @@
 using ContosoPizza.Services;
-// Additional using declarations
+// Additional using declarations : exercício
+using ContosoPizza.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add the PizzaContext
+// Add the PizzaContext :exercício
+builder.Services.AddSqlite<PizzaContext>("Data Source=ContosoPizza.db");
 
 // Add the PromotionsContext
 
