@@ -1,4 +1,4 @@
-# Este Projeto faz parte de um projeto Guiado do Microsoft Learn, trabalhando com rota no Blazor
+# Este Projeto faz parte de um projeto Guiado do Microsoft Learn, trabalhando com rotas no Blazor
 
 ### Objetivos de aprendizagem
 
